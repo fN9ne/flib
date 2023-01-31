@@ -1,0 +1,39 @@
+.demo {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+}
+.demo__field {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+.demo__field h2 {
+	flex: 0 0 100%;
+}
+.demo__block {
+	display: flex;
+	flex-direction: column;
+}
+.demo__title {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+.demo__code {
+	margin: 0 0 10px;
+	flex: 1 1 auto;
+}
+.demo__copy {
+	width: 100%;
+}
+.demo__image {
+	border: 2px solid #FFFFFF;
+	width: 80%;
+}
+.demo__image img {
+	width: 100%;
+}
+h1 {
+	margin: 0 0 -60px 0;
+}
